@@ -4,15 +4,10 @@
 I will use this repository to practice and document the knowledge about S.O.L.I.D. Object-Oriented Design Principles.
 The source code is Java with examples of Good and Bad practices.
 
-- Single Responsibility Principle
-- Open/Closed Principle
-- Liskov Substitution Principle
-- Interface Segregation Principle
-- Dependency Inversion Principle
-
 
 ## Table of Contents
 
+* [What is a good object oriented design](#what-is-a-good-object-oriented-design)
 * [Single Responsibility Principle](#single-responsibility-principle)
 * [Open Closed Principle](#open-closed-principle)
 * [Liskov Substitution Principle](#Liskov-Substitution-Principle)
@@ -20,7 +15,7 @@ The source code is Java with examples of Good and Bad practices.
 * [Dependency Inversion Principle](#dependency-inversion-principle)
 
 
-## What is a good object-oriented design?
+## What is a good object-oriented design
 
 A good object-oriented design allows us to build software in a way that it can follow the evolution of the business in an agile and safe way. This means that the code must be maintainable.
 Any code which is not maintainable and cannot adapt to changing requirements very easily is code just waiting to become old-fashioned.
@@ -52,15 +47,12 @@ class Example {
 }
 ```
 
-### Ganhos ao aplicar S.R.P. a classes:
+### Benefits when implementing SRP:
 
-* Facilidade de manutenção e evolução do código
-* Código limpo e de fácil entendimento
-* Facilidade para desenvolvimento de testes
-* Redução do acoplamento
-* Complexidade reduzida
-* Coesão das classes
-
+* Clean code and ease to maintain
+* Simplicity to develop tests
+* Reduced complexity
+* Increased cohesion
 
 
 ## Open Closed Principle
